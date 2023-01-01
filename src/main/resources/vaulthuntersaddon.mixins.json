@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.melonboy10.vaulthuntersaddon.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "vaulthuntersaddon.refmap.json",
+  "mixins": [
+    "TimerScaleMixin",
+    "TimerTitleMixin"
+  ],
+  "client": [
+    "ChestItemHighlighterMixin",
+    "ControlQInChests",
+    "PlayerHealthMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
